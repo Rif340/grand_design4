@@ -1,0 +1,231 @@
+@media only screen and (max-width: 7000px){
+	.page-wrapper{
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width: 1023px){
+	.main-header .nav-outer .main-menu,
+	.sticky-header{
+		display: none !important;
+	}
+
+	.nav-outer .mobile-nav-toggler{
+		display: block !important;
+		margin: 0;
+		padding: 24px 0;
+	}
+	
+	.main-header .header-upper .nav-outer:before{
+		display:none !important;	
+	}
+
+	.main-header .dropdown > a > i{
+		display: none !important;
+	}
+	
+	.main-header .nav-outer{
+		display: flex !important;
+		align-items: center !important;
+		justify-content: flex-start !important;
+		margin-left: 10px !important;
+		width:auto;
+		float:none;	
+	}
+	
+	.main-header .nav-outer .logo-outer{
+		position:relative !important;
+		left:0 !important;
+		top: 8px !important;
+		width:auto !important;
+		height:auto !important;
+		margin:0 !important;
+		-webkit-transform: translateX(0) !important;
+		-ms-transform: translateX(0) !important;
+		transform: translateX(0) !important;	
+	}
+
+	.nav-outer .mobile-nav-toggler{
+		position: absolute !important;
+		right: 10px;
+		top: 60%;
+		transform: translateY(-50%) !important;
+		line-height: 50px !important;
+		display: block !important;
+		margin: 0;
+		padding: 24px 0;
+	}
+    /* =============== landing-page-grand-design-desktop ================ */
+    .landing-page-grand-design-desktop{
+        display:none;
+    }
+    /* =============== landing-page-grand-design-desktop ================ */
+
+    /* =============== landing-page-grand-design-mobile ================ */
+        .landing-page-grand-design-mobile {
+            width: 100%;
+                min-height: 100vh;
+                background: linear-gradient(#100133, #27007f);
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                padding: 2rem 1rem;
+                box-sizing: border-box;
+                position: relative;
+        }
+    
+        .landing-page-grand-design-mobile .gambar3 {
+            margin-top: 15vh;
+                display: block;
+                width: 80%;
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+        }
+    
+        .grand-design-content-mobile .gambar4 {
+            width: 20vw;
+            height: 20vw;
+            position: relative;
+            top:0;
+            display:block;
+            margin-left: auto;
+            left: 0;
+        }
+        
+        .grand-design-content-mobile {
+        width: 100%;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            color: white;
+            text-align: left;
+            margin-top:2rem;
+        }
+
+        .grand-design-content-mobile h1 {
+            font-size: 100%;
+                    font-weight: 700;
+        }
+
+        .grand-design-content-mobile p {
+    font-size: 100%;
+        text-align: justify;
+        }
+    /* =============== landing-page-grand-design-mobile ================ */
+
+    /* =============== pdf teks ================*/
+        .pdf-grand-design .text-pdf{
+            text-align:left;
+            justify-content:left;
+            padding:4%;
+        }
+
+        .pdf-grand-design .text-pdf .text1 i{
+            font-size:1em;
+            font-weight:800;
+            display:block;
+            text-align:left;
+            justify-content:left;
+        }
+    /* =============== akhir pdf teks ================*/
+
+    /* =============== Live Kabinet ================*/
+        /* laynard 2 */
+        .live-kabinet {
+            width: 100%;
+            height: 64px;
+            background-color: #643cb8;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+            left: 0;
+            bottom: 0;
+            z-index: 4;
+        }
+    
+        @keyframes tickerMove {
+            from {
+                transform: translateX(0);
+            }
+    
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    
+        .live-kabinet .live {
+            min-width: 10%;
+            display: flex;
+            align-items: center;
+            padding: 0 70px;
+            flex-shrink: 0;
+            animation: tickerMove 1.5s linear infinite;
+        }
+    
+        .live-kabinet img {
+            width: 48px;
+            height: 32px;
+        }
+    
+        .live-kabinet span {
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    
+    /* =============== akhir Live Kabinet ================*/
+
+    /* =============== gambar pdf ================*/
+        .gambar-pdf .pdf1{
+            display: none;
+        }
+
+        .gambar-pdf .pdf2 {
+            display: block;
+        }
+    /* =============== akhir gambar pdf ================*/
+
+
+	/* =============== section Footer ================ */
+      .footer-text{
+        display: flex !important;
+        position: relative;
+        gap: 60px !important;
+        padding: 20px 20px 0 20px !important;
+      }
+      .logo-section{
+        margin-left: 0px !important;
+      }
+      .section-3{
+        margin-top: -20px !important; 
+      }
+}
+
+@media screen and (max-width: 768px) {
+  /* =============== section Footer ================ */
+  .footer-text{
+    display: flex !important;
+    position: relative;
+    gap: 70px !important;
+    padding: 20px 0 0 20px !important;
+  }
+  .logo-section{
+    margin-left: 0px !important;
+  }
+  .section-3{
+    margin-top: -40px !important; 
+  }
+}
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}

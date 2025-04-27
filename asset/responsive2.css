@@ -1,0 +1,250 @@
+@media only screen and (max-width: 7000px) {
+    .page-wrapper {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+
+    .main-header .nav-outer .main-menu,
+    .sticky-header {
+        display: none !important;
+    }
+
+    .nav-outer .mobile-nav-toggler {
+        display: block !important;
+        margin: 0;
+        padding: 24px 0;
+    }
+
+    .main-header .header-upper .nav-outer:before {
+        display: none !important;
+    }
+
+    .main-header .dropdown>a>i {
+        display: none !important;
+    }
+
+    .main-header .nav-outer {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        margin-left: 10px !important;
+        width: auto;
+        float: none;
+    }
+
+    .main-header .nav-outer .logo-outer {
+        position: relative !important;
+        left: 0 !important;
+        top: 8px !important;
+        width: auto !important;
+        height: auto !important;
+        margin: 0 !important;
+        -webkit-transform: translateX(0) !important;
+        -ms-transform: translateX(0) !important;
+        transform: translateX(0) !important;
+    }
+
+    .nav-outer .mobile-nav-toggler {
+        position: absolute !important;
+        right: 10px;
+        top: 60%;
+        transform: translateY(-50%) !important;
+        line-height: 50px !important;
+        display: block !important;
+        margin: 0;
+        padding: 24px 0;
+    }
+
+    /* =============== landing-page-grand-design-desktop ================ */
+        .landing-page-grand-design-desktop {
+            width: 100%;
+            height: 700px;
+            background-color: #1a0040;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .landing-page-grand-design-desktop img {
+            object-fit: cover;
+            object-position: center;
+            display: block;
+            width: 360px;
+            height: 239px;
+        }
+    
+        .grand-design-content {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            margin-top: 12rem;
+            color: white;
+            padding-inline: 0;
+        }
+    
+        .grand-design-content h1 {
+            display: block;
+            margin-top:5rem;
+            font-size: 2.5rem;
+            text-shadow:
+                -2px -2px 0 #2b0050,
+                2px -2px 0 #2b0050,
+                -2px 2px 0 #2b0050,
+                2px 2px 0 #2b0050;
+        }
+    
+        .grand-design-content span {
+            margin-top: -2rem;
+            padding-inline:none;
+            display: block;
+            font-size: 4rem;
+            text-shadow:
+                -2px -2px 0 #2b0050,
+                2px -2px 0 #2b0050,
+                -2px 2px 0 #2b0050,
+                2px 2px 0 #2b0050;
+        }
+
+
+                 .grand-design-content p{
+                    width:100%;
+                    display:block;
+
+                   
+                 }
+    /* =============== landing-page-grand-design-desktop ================ */
+
+    /* =============== landing-page-grand-design-mobile ================ */
+    .landing-page-grand-design-mobile {
+        display:none;
+    }
+
+    /* =============== landing-page-grand-design-mobile ================ */
+
+    /* =============== pdf teks ================*/
+    .pdf-grand-design .text-pdf {
+        text-align: left;
+        justify-content: left;
+        padding: 4%;
+    }
+
+    .pdf-grand-design .text-pdf .text1 i {
+        font-size: 1em;
+        font-weight: 800;
+        display: block;
+        text-align: left;
+        justify-content: left;
+    }
+
+    /* =============== akhir pdf teks ================*/
+
+    /* =============== Live Kabinet ================*/
+    /* laynard 2 */
+    .live-kabinet {
+        width: 100%;
+        height: 64px;
+        background-color: #643cb8;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        z-index: 4;
+    }
+
+    @keyframes tickerMove {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    .live-kabinet .live {
+        min-width: 10%;
+        display: flex;
+        align-items: center;
+        padding: 0 70px;
+        flex-shrink: 0;
+        animation: tickerMove 1.5s linear infinite;
+    }
+
+    .live-kabinet img {
+        width: 48px;
+        height: 32px;
+    }
+
+    .live-kabinet span {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* =============== akhir Live Kabinet ================*/
+
+    /* =============== gambar pdf ================*/
+    .gambar-pdf .pdf1 {
+        display: none;
+    }
+
+    .gambar-pdf .pdf2 {
+        display: block;
+    }
+
+    /* =============== akhir gambar pdf ================*/
+
+
+    /* =============== section Footer ================ */
+    .footer-text {
+        display: flex !important;
+        position: relative;
+        gap: 60px !important;
+        padding: 20px 20px 0 20px !important;
+    }
+
+    .logo-section {
+        margin-left: 0px !important;
+    }
+
+    .section-3 {
+        margin-top: -20px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* =============== section Footer ================ */
+    .footer-text {
+        display: flex !important;
+        position: relative;
+        gap: 70px !important;
+        padding: 20px 0 0 20px !important;
+    }
+
+    .logo-section {
+        margin-left: 0px !important;
+    }
+
+    .section-3 {
+        margin-top: -40px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .main-menu .navigation>li>ul,
+    .main-menu .navigation>li>ul>li>ul {
+        display: block !important;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
